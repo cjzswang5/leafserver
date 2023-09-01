@@ -2,8 +2,11 @@ package conf
 
 import (
 	"encoding/json"
+	"fmt"
+	"os"
+	"path/filepath"
+
 	"github.com/name5566/leaf/log"
-	"io/ioutil"
 )
 
 var Server struct {
@@ -19,7 +22,15 @@ var Server struct {
 }
 
 func init() {
-	data, err := ioutil.ReadFile("conf/server.json")
+	execpath, err := os.Executable()
+	if err != nil {
+		log.Fatal("%v", err)
+	}
+	execdir := filepath.Dir(execpath)
+	fmt.Printf("execdir\t\t= \"%s\"\n", execdir)
+	configPath := "bin/conf/server.json"
+	fmt.Printf("configPath\t= \"%s\"\n", filepath.Join(execdir, configPath))
+	data, err := os.ReadFile(configPath)
 	if err != nil {
 		log.Fatal("%v", err)
 	}

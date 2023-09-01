@@ -1,7 +1,7 @@
 package game
 
 import (
-	"server/game/internal"
+	"main/src/server/game/internal"
 )
 
 var (

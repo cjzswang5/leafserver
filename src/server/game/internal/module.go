@@ -1,8 +1,9 @@
 package internal
 
 import (
+	"main/src/server/base"
+
 	"github.com/name5566/leaf/module"
-	"server/base"
 )
 
 var (
