@@ -1,7 +1,7 @@
 package login
 
 import (
-	"leafServer/src/server/login/internal"
+	"github.com/cjzswang5/leafServer/src/server/login/internal"
 )
 
 var (

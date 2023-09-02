@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"leafServer/src/server/conf"
-	"leafServer/src/server/game"
-	"leafServer/src/server/msg"
+	"github.com/cjzswang5/leafServer/src/server/conf"
+	"github.com/cjzswang5/leafServer/src/server/game"
+	"github.com/cjzswang5/leafServer/src/server/msg"
 
 	"github.com/cjzswang5/leaf/gate"
 )

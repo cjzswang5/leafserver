@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"leafServer/src/server/base"
+	"github.com/cjzswang5/leafServer/src/server/base"
 
 	"github.com/cjzswang5/leaf/module"
 )

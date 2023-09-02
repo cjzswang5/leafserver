@@ -1,8 +1,9 @@
 package internal
 
 import (
-	"leafServer/src/server/msg"
 	"reflect"
+
+	"github.com/cjzswang5/leafServer/src/server/msg"
 
 	"github.com/cjzswang5/leaf/gate"
 	"github.com/cjzswang5/leaf/log"

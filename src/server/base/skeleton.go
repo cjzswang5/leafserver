@@ -1,7 +1,7 @@
 package base
 
 import (
-	"leafServer/src/server/conf"
+	"github.com/cjzswang5/leafServer/src/server/conf"
 
 	"github.com/cjzswang5/leaf/chanrpc"
 	"github.com/cjzswang5/leaf/module"

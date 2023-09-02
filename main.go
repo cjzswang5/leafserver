@@ -1,10 +1,10 @@
-package leafServer
+package main
 
 import (
-	"leafServer/src/server/conf"
-	"leafServer/src/server/game"
-	"leafServer/src/server/gate"
-	"leafServer/src/server/login"
+	"github.com/cjzswang5/leafServer/src/server/conf"
+	"github.com/cjzswang5/leafServer/src/server/game"
+	"github.com/cjzswang5/leafServer/src/server/gate"
+	"github.com/cjzswang5/leafServer/src/server/login"
 
 	"github.com/cjzswang5/leaf"
 	lconf "github.com/cjzswang5/leaf/conf"
