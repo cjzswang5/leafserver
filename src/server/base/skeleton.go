@@ -1,10 +1,10 @@
 package base
 
 import (
-	"main/src/server/conf"
+	"leafServer/src/server/conf"
 
-	"github.com/name5566/leaf/chanrpc"
-	"github.com/name5566/leaf/module"
+	"github.com/cjzswang5/leaf/chanrpc"
+	"github.com/cjzswang5/leaf/module"
 )
 
 func NewSkeleton() *module.Skeleton {

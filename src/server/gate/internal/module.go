@@ -1,11 +1,11 @@
 package internal
 
 import (
-	"main/src/server/conf"
-	"main/src/server/game"
-	"main/src/server/msg"
+	"leafServer/src/server/conf"
+	"leafServer/src/server/game"
+	"leafServer/src/server/msg"
 
-	"github.com/name5566/leaf/gate"
+	"github.com/cjzswang5/leaf/gate"
 )
 
 type Module struct {

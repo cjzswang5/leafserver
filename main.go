@@ -1,13 +1,13 @@
-package main
+package leafServer
 
 import (
-	"main/src/server/conf"
-	"main/src/server/game"
-	"main/src/server/gate"
-	"main/src/server/login"
+	"leafServer/src/server/conf"
+	"leafServer/src/server/game"
+	"leafServer/src/server/gate"
+	"leafServer/src/server/login"
 
-	"github.com/name5566/leaf"
-	lconf "github.com/name5566/leaf/conf"
+	"github.com/cjzswang5/leaf"
+	lconf "github.com/cjzswang5/leaf/conf"
 )
 
 func main() {

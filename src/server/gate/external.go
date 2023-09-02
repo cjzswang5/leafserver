@@ -1,7 +1,7 @@
 package gate
 
 import (
-	"main/src/server/gate/internal"
+	"leafServer/src/server/gate/internal"
 )
 
 var (
